@@ -1,33 +1,46 @@
-// OOP Tic Tac Toe boilerplate code
+$(function() {
 
-// Execute this code only AFTER the document is ready
-// Hint: use jQuery's `$(document).ready`
-
+//create a Game which has 2 players + a new board + it checks for a winner by calling isWinner function
   function Game() {
-    //Create a new instance of player 1
-    //this.player1 = ...
-
-    //Do the same for a player 2
-    //this.player2 = ...
-    
-    //Create the board
-    //this.board = ...
+    var playerX = new Player("X");
+    var playerO = new Player("O");
+    var board = new Board();
+    isWinner();
   }
 
-  // Remember: prototypes are shared functions between all game instances
   Game.prototype.nextPlayer = function() {
-    //Switch players
+    $(".cell").on("click", switchTurn);
+    function switchTurn() {
+      if (turn === "X") {
+        $(".cell").removeClass();
+        $(".cell").addClass("X");
+        $("#headline").text("Your turn O");
+        return turn === "O"
+      }
+      else if {
+        $(".cell").removeClass();
+        $(".cell").addClass("O");
+        $("#headline").text("Your turn X");
+        return turn === "X";
+      }
+    }
   };
 
   // `Game.prototype.init` kicks off a new game with a board and two players
   Game.prototype.init = function() {
-    //
-  };
-
-  // A starter Player constructor.
+    $("Button").on("click", clearBoard);
+    function clearBoard() {
+      var $cell = $(".cell");
+      for (var i = 0; i < 9; i++) {
+        $cell.removeClass("X");
+        $cell.removeClass("O");
+        $cell.addClass(".cell");
+    }
+    }
+}
+  
   function Player(team) {
-    //Is the player X or O?
-    //this.team = ...
+    this.team = team;
   };
 
   // A starter Board constructor.
@@ -38,6 +51,11 @@
     //Store any other properties that board may have below, such as a reset option
   };
 
+  function isWinner() {
+
+  }
+
   // Start the game!
   var game = new Game();
   game.init();
+});

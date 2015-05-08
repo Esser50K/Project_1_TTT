@@ -6,14 +6,31 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- Require jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
   <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-  <!-- HTML Body -->
   <h1>Tic Tac Toe</h1>
-  <img src="http://www.cs.utah.edu/~gk/atwork/img/hevequip2.gif" alt="under construction"></img>
-  <!-- Tic Tac Toe Board here -->
-  <!-- Reset button -->
+    <div id="headline">Your turn X</div><div id="turn"></div>
+    <div id='board'>
+      <!-- the `&nbsp;` in each div is a non-breakable space.
+           It prevents the div from collapsing. -->
+      <div id="toprow">
+        <div class='cell' id="sq1">1&nbsp;</div>
+        <div class='cell' id="sq2">2&nbsp;</div>
+        <div class='cell' id="sq3">3&nbsp;</div>
+      </div>  
+      <div id="middlerow"> 
+        <div class='cell' id="sq4">4&nbsp;</div>
+        <div class='cell' id="sq5">5&nbsp;</div>
+        <div class='cell' id="sq6">6&nbsp;</div>
+      </div>
+      <div id="bottomrow">
+        <div class='cell' id="sq7">7&nbsp;</div>
+        <div class='cell' id="sq8">8&nbsp;</div>
+        <div class='cell' id="sq9">9&nbsp;</div>
+      </div>
+    </div>
+    <button id="Button">Reset</button> 
 </body>
 </html>
