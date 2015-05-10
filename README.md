@@ -21,6 +21,12 @@ May 9 --- Beginning in the morning, I'm drawing out a diagram of the game and se
 
 3:00pm --- I figured out how to change the background image when each square is clicked
 
+11:15pm --- I did some codecademy lessons on OOP and read a long article on scoping to help me determin the move method.  I have made one step closer to the end.
+
+12:17pm --- I finally figured out how to switch players from X to O
+
+1:45pm --- In GA, attempting to figure out how to determine the winner.  I got my clearBoard method to work, as well as incrementing my counter which leaves me with figuring out the winner as my last obstacle.
+
 
 
 
