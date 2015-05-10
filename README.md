@@ -27,6 +27,12 @@ May 9 --- Beginning in the morning, I'm drawing out a diagram of the game and se
 
 1:45pm --- In GA, attempting to figure out how to determine the winner.  I got my clearBoard method to work, as well as incrementing my counter which leaves me with figuring out the winner as my last obstacle.
 
+4:30pm --- Used hasClass() to help check the divs for "X" or "O"
+
+4:40pm --- All done except my counter isn't wanting to work
+
+5:00pm --- for tomorrow in order to fully complete --> after winner is determined, reset board + figure out my counter
+
 
 
 
@@ -39,6 +45,8 @@ May 9 --- Beginning in the morning, I'm drawing out a diagram of the game and se
 
 ###Existing features
 *What features does your new tic-tac-toe app have?*
+Outside of some minor CSS stuff, nothing that we haven't been taught.  I was able to use OOP for the whole project, even though I thought I would have to copy/paste my past project into this one (functional programming).
 
 ###Planned features
 *What changes would you make to your project if you continued with it in the future?*
+reset my turn when a game is won or when the reset button is clicked
