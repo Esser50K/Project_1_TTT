@@ -49,4 +49,7 @@ Outside of some minor CSS stuff, nothing that we haven't been taught.  I was abl
 
 ###Planned features
 *What changes would you make to your project if you continued with it in the future?*
-reset my turn when a game is won or when the reset button is clicked
+- reset "my turn" when a game is won or when the reset button is clicked
+- reset board when game has been won
+- figure out the issue with my checkWinner method for a tie
+- add in something from bootstrap

@@ -42,87 +42,103 @@ $(document).ready(function() {
     var xCounter = 0;
     var oCounter = 0;
     if ($(".cell").hasClass("cell X")) {
-      if ($("#sq1").hasClass("cell X") && $("#sq2").hasClass("cell X") && $("#sq3").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
+      if ($("#sq1").hasClass("cell X") && $("#sq2").hasClass("cell X") && $("#sq3").hasClass("cell X")) { 
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq4").hasClass("cell X") && $("#sq5").hasClass("cell X") && $("#sq6").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq7").hasClass("cell X") && $("#sq8").hasClass("cell X") && $("#sq9").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq1").hasClass("cell X") && $("#sq4").hasClass("cell X") && $("#sq7").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq2").hasClass("cell X") && $("#sq5").hasClass("cell X") && $("#sq8").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq3").hasClass("cell X") && $("#sq6").hasClass("cell X") && $("#sq9").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq1").hasClass("cell X") && $("#sq5").hasClass("cell X") && $("#sq9").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);
+        alert("Please hit the reset button to play another game.");
       }         
       if ($("#sq3").hasClass("cell X") && $("#sq5").hasClass("cell X") && $("#sq7").hasClass("cell X")) {
-        $(".xwins").text("Player X Wins: " + xCounter);
         alert("X wins!!!");
         xCounter++;
+        $(".xwins").text("Player X Wins: " + xCounter);   
+        alert("Please hit the reset button to play another game.");     
       }         
     }
     else if ($(".cell").hasClass("cell O")) {
       if ($("#sq1").hasClass("cell O") && $("#sq2").hasClass("cell O") && $("#sq3").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq4").hasClass("cell O") && $("#sq5").hasClass("cell O") && $("#sq6").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq7").hasClass("cell O") && $("#sq8").hasClass("cell O") && $("#sq9").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq1").hasClass("cell O") && $("#sq4").hasClass("cell O") && $("#sq7").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq2").hasClass("cell O") && $("#sq5").hasClass("cell O") && $("#sq8").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq3").hasClass("cell O") && $("#sq6").hasClass("cell O") && $("#sq9").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }
       if ($("#sq1").hasClass("cell O") && $("#sq5").hasClass("cell O") && $("#sq9").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }         
       if ($("#sq3").hasClass("cell O") && $("#sq5").hasClass("cell O") && $("#sq7").hasClass("cell O")) {
-        $(".owins").text("Player O Wins: " + yCounter);
         alert("O wins!!!");
-        yCounter++;
+        oCounter++;
+        $(".owins").text("Player O Wins: " + oCounter);
+        alert("Please hit the reset button to play another game.");
       }       
     }
       else if (($("#sq1").hasClass("X") || $("#sq1").hasClass("O")) && ($("#sq2").hasClass("X") || $("#sq2").hasClass("O")) 
