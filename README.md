@@ -31,7 +31,7 @@ May 9 --- Beginning in the morning, I'm drawing out a diagram of the game and se
 
 4:40pm --- All done except my counter isn't wanting to work
 
-5:00pm --- for tomorrow in order to fully complete --> after winner is determined, reset board + figure out my counter
+5:00pm --- for tomorrow in order to fully complete --> after winner is determined, reset board + figure out my counter.  also, need to complete the checkWinner method for the tie
 
 
 

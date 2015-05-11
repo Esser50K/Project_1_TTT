@@ -125,7 +125,15 @@ $(document).ready(function() {
         yCounter++;
       }       
     }
-}
+      else if (($("#sq1").hasClass("X") || $("#sq1").hasClass("O")) && ($("#sq2").hasClass("X") || $("#sq2").hasClass("O")) 
+              && ($("#sq3").hasClass("X") || $("#sq3").hasClass("O")) && ($("#sq4").hasClass("X") || $("#sq4").hasClass("O")) 
+              && ($("#sq5").hasClass("X") || $("#sq5").hasClass("O")) && ($("#sq6").hasClass("X") || $("#sq6").hasClass("O")) 
+              && ($("#sq7").hasClass("X") || $("#sq7").hasClass("O")) && ($("#sq8").hasClass("X") || $("#sq8").hasClass("O")) 
+              && ($("#sq9").hasClass("X") || $("#sq9").hasClass("O"))) {
+              alert("Tie.  Hit the reset button.");
+      }
+    }
+
 
     
     // xCounter++;  
