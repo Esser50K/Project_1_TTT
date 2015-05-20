@@ -38,6 +38,8 @@ $(document).ready(function() {
   }
 
 //check for winner
+// in order to improve this, break it up into prototypes and check for diagonal winner/
+// vertical winner/etc. to make it more readable and better looking
   Game.prototype.checkWinner = function() {
     var xCounter = 0;
     var oCounter = 0;
