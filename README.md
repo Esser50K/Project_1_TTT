@@ -21,7 +21,7 @@ May 9 --- Beginning in the morning, I'm drawing out a diagram of the game and se
 
 3:00pm --- I figured out how to change the background image when each square is clicked
 
-11:15pm --- I did some codecademy lessons on OOP and read a long article on scoping to help me determin the move method.  I have made one step closer to the end.
+11:15pm --- I did some codecademy lessons on OOP and read a long article on scoping to help me determine the move method.  I have made one step closer to the end.
 
 12:17pm --- I finally figured out how to switch players from X to O
 
@@ -53,3 +53,4 @@ Outside of some minor CSS stuff, nothing that we haven't been taught.  I was abl
 - reset board when game has been won
 - figure out the issue with my checkWinner method for a tie
 - add in something from bootstrap
+
